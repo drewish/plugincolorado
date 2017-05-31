@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "#3 Stepping Off The Relationship Escalator"
+title: Stepping Off The Relationship Escalator
+episode: 3
 categories: interview
 soundcloud_url: https://soundcloud.com/plug-in-colorado/3-stepping-off-the-relationship-escalator
 soundcloud_id: 322273861
