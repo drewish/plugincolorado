@@ -27,6 +27,9 @@ timezone: America/Denver
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: true
 theme: minima
 gems:
   - jekyll-feed

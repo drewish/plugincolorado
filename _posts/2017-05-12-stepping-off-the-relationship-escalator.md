@@ -1,6 +1,6 @@
 ---
 layout: post
-title: #3 Stepping Off The Relationship Escalator
+title: "#3 Stepping Off The Relationship Escalator"
 categories: interview
 soundcloud_url: https://soundcloud.com/plug-in-colorado/3-stepping-off-the-relationship-escalator
 soundcloud_id: 322273861
@@ -10,7 +10,7 @@ This time I’m talking to journalist Amy Gahran about her book Stepping Off the
 
 You can purchase the book from her website [OffEscalator.com](http://offescalator.com/) and receive 10% off with the code “BoulderPodcast”.
 
-{% include soundcloud_embed.html track_id=page.soundcould_id %}
+{% include soundcloud_embed.html track_id=page.soundcloud_id %}
 
 Links:
 

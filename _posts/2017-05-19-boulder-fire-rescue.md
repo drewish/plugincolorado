@@ -1,6 +1,7 @@
 ---
 layout: post
-title: #4 Boulder Fire - Rescue
+title: Boulder Fire - Rescue
+episode: 4
 categories: Boulder interview
 soundcloud_url: https://soundcloud.com/plug-in-colorado/4-boulder-fire-rescue
 soundcloud_id: 323403529
@@ -8,7 +9,7 @@ soundcloud_id: 323403529
 
 This week Andrew talks to Lieutenant Matt Zavala about working as a fire inspector with Boulder Fire-Rescue, fire safety and the Citizens’ Fire Academy.
 
-{% include soundcloud_embed.html track_id=page.soundcould_id %}
+{% include soundcloud_embed.html track_id=page.soundcloud_id %}
 
 Links:
 
