@@ -35,6 +35,7 @@ kramdown:
 gems:
   - jekyll-feed
   - jekyll-bootstrap-sass
+  - jekyll-assets
 exclude:
   - Gemfile
   - Gemfile.lock
