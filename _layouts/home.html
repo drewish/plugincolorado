@@ -9,11 +9,19 @@ layout: default
     <div class="row">
   {% endif %}
       <div class="col-sm-6">
-        <h2>
-          {% if post.episode %}<small>Episode {{ post.episode }}<br></small>{% endif %}
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-        {% img src {{ "/_assets/episode_1.jpg" }} | img : "magick:resize:100x100" }}
+
+        <div class="thumbnail">
+          {% if post.episode %}
+            {{ "episode_" | append: post.episode | append: '.jpg' | img: "magick:resize:390x390" }}
+          {% endif %}
+          <div class="caption">
+            <h2>
+              {% if post.episode %}<small>Episode {{ post.episode }}<br></small>{% endif %}
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h2>
+          </div>
+        </div>
+
       </div>
   {% if loopindex == 1 %}
     </div>
