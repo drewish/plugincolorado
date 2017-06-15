@@ -16,18 +16,21 @@
 title: Plug In Colorado
 email: plugincolorado@gmail.com
 description: >
-  It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Plug In Colorado brings you interviews with interesting people that make up
+  our community.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: plugincolorado
+url: "https://plugincolorado.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: plugincolorado
 timezone: America/Denver
 permalink: "/:year/:month/:day/:title/"
 
 bootstrap:
   assets: true
+font-awesome:
+  assets: true
 assets:
   features:
+    automatic_img_size: 2
     automatic_img_alt: false
 
 # Build settings
@@ -38,6 +41,7 @@ kramdown:
 gems:
   - jekyll-feed
   - jekyll-bootstrap-sass
+  - jekyll-font-awesome-sass
   - jekyll-assets
 exclude:
   - Gemfile

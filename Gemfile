@@ -17,6 +17,7 @@ gem "mini_magick"
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
    gem 'jekyll-bootstrap-sass'
+   gem 'jekyll-font-awesome-sass', git: 'git@github.com:drewish/jekyll-font-awesome-sass.git'
    gem 'jekyll-assets', git: 'git@github.com:drewish/jekyll-assets.git', branch: 'fix-automatic-img-size'
 end
 

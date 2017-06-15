@@ -1,7 +1,8 @@
 ---
 ---
-
 @import 'bootstrap';
+$fa-font-path: "fonts/font-awesome/";
+@import "font-awesome";
 
 
 /*
@@ -17,4 +18,3 @@
   margin-left:  auto;
   margin-right: auto;
 }
-

@@ -1,42 +1,31 @@
 <footer>
 
+  <hr/>
+
   <div class="container">
-    <div class="row">
-      <h3>{{ site.title | escape }}</h3>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-3">
-        <ul>
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-          </li>
+    <footer class="row">
+      <div class="col-sm-6">
+        <ul class="list-inline">
           {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <li>
+              <a href="mailto:{{ site.email }}"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email</a>
+            </li>
           {% endif %}
-        </ul>
-      </div>
-
-      <div class="col-sm-3">
-        <ul>
           {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
+            <li>
+              <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+            </li>
           {% endif %}
-          <li><a href="{{ "/feed.xml" | relative_url }}">RSS feed</a></li>
+          <li>
+            <a href="{{ "/feed.xml" | relative_url }}"><i class="fa fa-rss" aria-hidden="true"></i> RSS feed</a>
+          </li>
         </ul>
       </div>
 
       <div class="col-sm-6">
         <p>{{ site.description | escape }}</p>
       </div>
-    </div>
-
+    </footer>
   </div>
 
 </footer>

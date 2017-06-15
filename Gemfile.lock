@@ -12,6 +12,14 @@ GIT
       rack (> 1, < 2)
       sprockets (~> 3.3, < 3.7)
 
+GIT
+  remote: git@github.com:drewish/jekyll-font-awesome-sass.git
+  revision: dd9bbad6fd4648ae885fc895383a14813e4818a8
+  specs:
+    jekyll-font-awesome-sass (0.1.0)
+      font-awesome-sass (~> 4)
+      jekyll (>= 2.5, < 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -29,6 +37,8 @@ GEM
       forwardable-extended (~> 2.5)
     fastimage (2.1.0)
     ffi (1.9.18)
+    font-awesome-sass (4.7.0)
+      sass (>= 3.2)
     forwardable-extended (2.6.0)
     jekyll (3.4.3)
       addressable (~> 2.4)
@@ -79,6 +89,7 @@ DEPENDENCIES
   jekyll-assets!
   jekyll-bootstrap-sass
   jekyll-feed (~> 0.6)
+  jekyll-font-awesome-sass!
   mini_magick
   tzinfo-data
 
