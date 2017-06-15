@@ -1,7 +1,7 @@
 GIT
-  remote: git@github.com:drewish/jekyll-assets.git
-  revision: 37c7b94c05602c5ccdb661cd4084a2c01ea00201
-  branch: fix-automatic-img-size
+  remote: https://github.com/jekyll/jekyll-assets.git
+  revision: add4d413cdbef397574c85acc93f494d6776dc54
+  branch: master
   specs:
     jekyll-assets (2.2.8)
       concurrent-ruby (~> 1.0)
@@ -11,14 +11,6 @@ GIT
       pathutil (>= 0.8)
       rack (> 1, < 2)
       sprockets (~> 3.3, < 3.7)
-
-GIT
-  remote: git@github.com:drewish/jekyll-font-awesome-sass.git
-  revision: dd9bbad6fd4648ae885fc895383a14813e4818a8
-  specs:
-    jekyll-font-awesome-sass (0.1.0)
-      font-awesome-sass (~> 4)
-      jekyll (>= 2.5, < 4.0)
 
 GEM
   remote: https://rubygems.org/
@@ -56,6 +48,9 @@ GEM
       jekyll (>= 2.5)
     jekyll-feed (0.9.2)
       jekyll (~> 3.3)
+    jekyll-font-awesome-sass (0.1.0)
+      font-awesome-sass (~> 4)
+      jekyll (>= 2.5, < 4.0)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
     jekyll-watch (1.5.0)
@@ -89,7 +84,7 @@ DEPENDENCIES
   jekyll-assets!
   jekyll-bootstrap-sass
   jekyll-feed (~> 0.6)
-  jekyll-font-awesome-sass!
+  jekyll-font-awesome-sass
   mini_magick
   tzinfo-data
 

@@ -13,12 +13,14 @@ gem "jekyll", "3.4.3"
 
 gem "mini_magick"
 
+# gem "pry-byebug"
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
    gem 'jekyll-bootstrap-sass'
-   gem 'jekyll-font-awesome-sass', git: 'git@github.com:drewish/jekyll-font-awesome-sass.git'
-   gem 'jekyll-assets', git: 'git@github.com:drewish/jekyll-assets.git', branch: 'fix-automatic-img-size'
+   gem 'jekyll-font-awesome-sass'
+   gem 'jekyll-assets', git: 'https://github.com/jekyll/jekyll-assets.git', branch: 'master'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
