@@ -12,6 +12,7 @@ ruby RUBY_VERSION
 gem "jekyll", "3.4.3"
 
 gem "mini_magick"
+gem "rake"
 
 # gem "pry-byebug"
 
