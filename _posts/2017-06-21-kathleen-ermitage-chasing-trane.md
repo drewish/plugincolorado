@@ -6,7 +6,7 @@ categories: Boulder interview
 soundcloud_id: 329334041
 ---
 
-This week Deana talks with Kathleen Ermitage, an assistant producer on [Chasing Trane](http://www.coltranefilm.com) and the Cubs documentary [We Believe](http://www.imdb.com/title/tt1266118). She is currently working on her own documentary [Think Big Start Small](http://www.documentary.org/film/think-big-start-small).
+This week Deana talks with Kathleen Ermitage, an associate producer on [Chasing Trane](http://www.coltranefilm.com) and the Cubs documentary [We Believe](http://www.imdb.com/title/tt1266118). She is currently working on her own documentary [Think Big Start Small](http://www.documentary.org/film/think-big-start-small).
 
 {% include soundcloud_embed.html track_id=page.soundcloud_id %}
 
