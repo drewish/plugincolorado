@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Boulder Fire - Rescue
+title: Boulder Fire – Rescue
 episode: 4
 categories: Boulder interview
-soundcloud_url: https://soundcloud.com/plug-in-colorado/4-boulder-fire-rescue
 soundcloud_id: 323403529
 ---
 

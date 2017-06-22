@@ -2,8 +2,7 @@
 layout: post
 title: Sacred Valley Project
 episode: 2
-categories: Peru interview
-soundcloud_url: https://soundcloud.com/plug-in-colorado/2-sacred-valley-project
+categories: Peru non-profit
 soundcloud_id: 318575235
 ---
 In this episode we sat down with Christie Cutler of the [Sacred Valley Project](http://sacredvalleyproject.org) and talked about educating girls in Peru.

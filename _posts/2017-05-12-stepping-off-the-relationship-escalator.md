@@ -2,12 +2,10 @@
 layout: post
 title: Stepping Off The Relationship Escalator
 episode: 3
-categories: interview
-soundcloud_url: https://soundcloud.com/plug-in-colorado/3-stepping-off-the-relationship-escalator
+categories: books
 soundcloud_id: 322273861
 ---
-
-This time I’m talking to journalist Amy Gahran about her book Stepping Off the Relationship Escalator.
+This time Deana is talking to journalist Amy Gahran about her book Stepping Off the Relationship Escalator.
 
 You can purchase the book from her website [OffEscalator.com](http://offescalator.com/) and receive 10% off with the code “BoulderPodcast”.
 

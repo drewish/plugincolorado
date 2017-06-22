@@ -2,7 +2,7 @@
 layout: post
 title: Kathleen Ermitage – Chasing Trane
 episode: 5
-categories: Boulder interview
+categories: music film
 soundcloud_id: 329334041
 ---
 
